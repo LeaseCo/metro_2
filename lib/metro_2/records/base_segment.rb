@@ -35,9 +35,9 @@ module Metro2::Records
     alphanumeric_field :interest_type_indicator, 1
     alphanumeric_const_field :reserved, 16, nil # reserved - blank fill
     alphanumeric_field :consumer_transaction_type, 1
-    alphanumeric_field :surname, 25, Metro2::ALPHANUMERIC_PLUS_DASH
-    alphanumeric_field :first_name, 20, Metro2::ALPHANUMERIC_PLUS_DASH
-    alphanumeric_field :middle_name, 20, Metro2::ALPHANUMERIC_PLUS_DASH
+    alphanumeric_field :surname, 25, Metro2::ALPHANUMERIC_PLUS_DOT_DASH_SLASH
+    alphanumeric_field :first_name, 20, Metro2::ALPHANUMERIC_PLUS_DOT_DASH_SLASH
+    alphanumeric_field :middle_name, 20, Metro2::ALPHANUMERIC_PLUS_DOT_DASH_SLASH
     alphanumeric_field :generation_code, 1
     numeric_field :social_security_number, 9
     date_field :date_of_birth
